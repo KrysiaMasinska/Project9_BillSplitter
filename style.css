@@ -4,18 +4,95 @@
     box-sizing: border-box;
 }
 
+html {
+    font-size: 62.5%;
+}
+
 body {
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
     font-family: 'Ubuntu', sans-serif;
+    font-size: 1.6rem;
     background-color: #444444;
 }
 
-.wrapper
-{
+.wrapper {
     width: 600px;
     background-color: #EDEDED;
     box-shadow: 0 0 10px 5px #000;
+
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 200px;
+    color: #EDEDED;
+    background-color: #DA0037;
+    text-transform: uppercase;
+}
+
+
+.header span {
+    color: #171717;
+}
+
+.header p {
+    margin-top: 10px;
+}
+
+.main {
+    padding: 20px 40px;
+}
+
+label {
+    display: block;
+    font-size: 2.2rem;
+}
+
+input,
+select {
+    padding: 8px 10px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    width: 100%;
+    border: 1px solid #444444;;
+}
+
+.count{
+    display: block;
+    width: 60%;
+    padding: 10px 20px;
+    margin: 20px auto;
+    font-size: 1.6rem;
+    background-color: #DA0037;
+    border:none;
+    color: #EDEDED;
+    cursor: pointer;
+    transition: background-color .3s;
+}
+
+.count:hover{
+    background-color: #970026;
+}
+
+.error{
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: bold;
+    color:#c70032;
+}
+
+.cost_info{
+    display: none;
+    font-size: 1.8rem;
+    margin-top: 20px;
+}
+
+.cost_total{
+    font-weight: bold;
 }
