@@ -1,0 +1,21 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #444444;
+}
+
+.wrapper
+{
+    width: 600px;
+    background-color: #EDEDED;
+    box-shadow: 0 0 10px 5px #000;
+}
